@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -24,7 +23,7 @@ nav{
 .logo{
     width: 180px;
     margin-left: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .bar-boton{
@@ -38,7 +37,7 @@ nav{
 .nav-menu{
     position: relative;
     height: 100px;
-    top: 0;
+    top: 8px;
     margin-right: 50px;
 }
 
@@ -48,6 +47,7 @@ nav{
     margin: 0 5px;
 }
 .nav-menu li a{
+    text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     color: rgb(20, 20, 20);
@@ -121,6 +121,28 @@ nav{
 
 }
 /* FIN HEADER */
+
+/* INICIO MAIN */
+main{
+    border-top: 5px solid rgb(246, 128, 60);
+}
+
+.container form{
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(246, 128, 60);
+    border: none;
+    color: rgb(20, 20, 20);
+}
+
+.btn:hover{
+    background-color: rgb(20, 20, 20);
+    color: rgb(246, 128, 60);
+    transition: all .3s linear;
+}
+/* FIN MAIN */
 
 /* FOOTER */
 
