@@ -121,3 +121,54 @@ nav{
 
 }
 /* FIN HEADER */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 110px;
+    border-top: 5px solid rgb(246, 128, 60);
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.logo-footer{
+    width: 180px;
+    margin-top: 10px;
+}
+
+.cajas{
+    display: inline;
+    margin-top: 10px;
+}
+
+.cajas a{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.cajas a:hover{
+    text-shadow: 0 0 10px rgb(246, 128, 60),
+                 0 0 20px rgb(246, 128, 60),
+                 0 0 40px rgb(246, 128, 60),
+                 0 0 60px rgb(246, 128, 60);
+    transition: all .5s;
+}
+
+.copy{
+    text-align: center;
+}
+
+/* FOOTER RESPONSIVE */
+
+@media (max-width: 778px) {
+
+    .contenedor-footer{
+        flex-direction: column;
+    }
+}
+/* FIN FOOTER */
