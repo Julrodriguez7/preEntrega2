@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/* HEADER */
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 180px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.bar-boton{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.nav-menu{
+    position: relative;
+    height: 100px;
+    top: 0;
+    margin-right: 50px;
+}
+
+.nav-menu li{
+    display: inline-block;
+    line-height: 110px;
+    margin: 0 5px;
+}
+.nav-menu li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+}
+.nav-menu li a:hover{
+    color: rgb(246, 128, 60);
+    text-shadow: 0 0 10px rgb(246, 128, 60),
+                 0 0 20px rgb(246, 128, 60),
+                 0 0 40px rgb(246, 128, 60),
+                 0 0 60px rgb(246, 128, 60);
+    transition: all .5s;
+}
+.nav-menu li a.active{
+    color: rgb(246, 128, 60);
+}
+/* RESPONSIVE */
+@media (max-width: 778px) {
+    
+.logo{
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bar-boton{
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer; /* Manito sobre elemento */
+    display: block;
+}
+
+.nav-menu{
+    position: absolute;
+    width: 100%;
+    height: 0vh;
+    top: 110px;
+    background: rgb(246, 128, 60, 0.90);
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 30px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: white;
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+}
+/* FIN HEADER */
