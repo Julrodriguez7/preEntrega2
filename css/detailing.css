@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
 /* HEADER */
@@ -24,7 +22,7 @@ nav{
 .logo{
     width: 180px;
     margin-left: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .bar-boton{
@@ -38,16 +36,18 @@ nav{
 .nav-menu{
     position: relative;
     height: 100px;
-    top: 0;
+    top: 8px;
     margin-right: 50px;
 }
 
 .nav-menu li{
+    list-style: none;
     display: inline-block;
     line-height: 110px;
     margin: 0 5px;
 }
 .nav-menu li a{
+    text-decoration: none;
     font-weight: bold;
     font-size: 18px;
     color: rgb(20, 20, 20);
@@ -123,6 +123,68 @@ nav{
 /* FIN HEADER */
 
 /* INICIO MAIN */
+
+main{
+    border-top: 5px solid rgb(246, 128, 60);
+}
+
+.grid{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas: 
+    "p1 car"
+    "p2 p2";
+}
+
+.car div img{
+    width: 900px;
+    height: 450px;
+}
+
+h1, h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.car{
+    grid-area: car;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.p1{
+    grid-area: p1;
+    margin: 20px;
+}
+
+.p2{
+    grid-area: p2;
+    margin: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 778px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "p1"
+        "car"
+        "p2";
+    }
+
+    .car div img{
+        width: 900px;
+        height: 380px;
+    }
+
+    .car{
+        margin: 5px;
+    }
+}
 
 /* FIN MAIN */
 /* FOOTER */
