@@ -40,20 +40,17 @@ nav{
     height: 100px;
     top: 0;
     margin-right: 50px;
-    transition: 3s linear;
 }
 
 .nav-menu li{
     display: inline-block;
     line-height: 110px;
     margin: 0 5px;
-    transition: 3s linear;
 }
 .nav-menu li a{
     font-weight: bold;
     font-size: 18px;
     color: rgb(20, 20, 20);
-    transition: 3s linear;
 }
 .nav-menu li a:hover{
     color: rgb(246, 128, 60);
@@ -134,7 +131,7 @@ main{
 .grid-1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr .8fr .6fr .8fr;
+    grid-template-rows: 0.5fr .6fr .6fr .8fr;
     gap: 5px;
     grid-template-areas: 
     "t-1 t-1 t-1"
@@ -150,7 +147,7 @@ main{
 
 .t-1 img{
     width: 20%;
-    height: 80%;
+    height: 90%;
     border-radius: 20px;
     margin-top: 5px;
 }
@@ -203,7 +200,7 @@ main{
 .grid-2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr .8fr .6fr .8fr;
+    grid-template-rows: 0.5fr .6fr .6fr .8fr;
     gap: 5px;
     grid-template-areas: 
     "t-2 t-2 t-2"
@@ -219,7 +216,7 @@ main{
 }
 .t-2 img{
     width: 25%;
-    height: 80%;
+    height: 90%;
     border-radius: 20px;
     margin-top: 5px;
 }
@@ -273,7 +270,7 @@ main{
     padding-bottom: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr .8fr .6fr .8fr;
+    grid-template-rows: 0.5fr .6fr .6fr .8fr;
     gap: 5px;
     grid-template-areas: 
     "t-3 t-3 t-3"
@@ -291,7 +288,7 @@ main{
     width: 25%;
     height: 80%;
     border-radius: 20px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 .t-3 p{
     color: rgb(246, 128, 60);
