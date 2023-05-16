@@ -38,7 +38,11 @@ nav{
     position: relative;
     height: 100px;
     top: 8px;
+<<<<<<< HEAD
     margin-right: 50px; 
+=======
+    margin-right: 50px;
+>>>>>>> pruebas
 }
 
 .nav-menu li{
@@ -130,21 +134,39 @@ main{
 .container form{
     padding: 20px;
     background-color: rgb(246, 128, 60);
+<<<<<<< HEAD
     border: 2px solid rgb(20, 20, 20);
     border-radius: 20px;
+=======
+    border: solid 2px rgb(20, 20, 20);
+    border-radius: 20px;
+}
+
+.nombre, .apellido, .email, .telefono, .texto{
+    border: solid 2px rgb(20, 20, 20);
+>>>>>>> pruebas
 }
 
 .btn{
     background-color: white;
+<<<<<<< HEAD
     color: rgb(20, 20, 20);
     border: 2px solid rgb(20, 20, 20);
+=======
+    border: solid 2px rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+>>>>>>> pruebas
     transition: all .5s linear;
 }
 
 .btn:hover{
     background-color: rgb(20, 20, 20);
+<<<<<<< HEAD
     border: 2px solid white;
     color: white;
+=======
+    border: solid 2px rgb(20, 20, 20);
+>>>>>>> pruebas
     transition: all .5s linear;
 }
 
