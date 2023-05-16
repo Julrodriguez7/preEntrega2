@@ -40,20 +40,17 @@ nav{
     height: 100px;
     top: 0;
     margin-right: 50px;
-    transition: 3s linear;
 }
 
 .nav-menu li{
     display: inline-block;
     line-height: 110px;
     margin: 0 5px;
-    transition: 3s linear;
 }
 .nav-menu li a{
     font-weight: bold;
     font-size: 18px;
     color: rgb(20, 20, 20);
-    transition: 3s linear;
 }
 .nav-menu li a:hover{
     color: rgb(246, 128, 60);
