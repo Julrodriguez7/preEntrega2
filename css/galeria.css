@@ -268,9 +268,10 @@ main{
 }
 
 .grid-3{
+    padding-bottom: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr .8fr .6fr .8fr;
+    grid-template-rows: 0.5fr .6fr .5fr .8fr;
     gap: 5px;
     grid-template-areas: 
     "t-3 t-3 t-3"
@@ -286,7 +287,7 @@ main{
 }
 .t-3 img{
     width: 25%;
-    height: 80%;
+    height: 90%;
     border-radius: 20px;
     margin-top: 2px;
 }
