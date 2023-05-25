@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="./img/icono.ico">
     <title>Detailing Co.</title>
@@ -50,7 +51,7 @@
         </section>
 
         <section class="section2">
-            <section class="section-img">
+            <section class="section-img" data-aos="flip-left">
                 <div>
                     <img src="./img/lavado.png" alt="lavado" class="img-lav">
                 </div>
@@ -62,7 +63,7 @@
                 </div>
             </section>
             
-            <section class="section-img">
+            <section class="section-img" data-aos="flip-right">
                 <div>
                     <img src="./img/opticas.png" alt="opticas" class="img-opt">
                 </div>
@@ -94,6 +95,12 @@
             <p><span><i class="fa-regular fa-copyright"></i></span> 2023 by Detailing Co.</p>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+				easing: 'ease-out-back',
+				duration: 2000
+			});
+    </script>
 </body>
 </html>
