@@ -1,0 +1,109 @@
+/* INICIO HEADER */
+header{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    nav{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+    width: 180px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.bar-boton{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.nav-menu{
+    position: relative;
+    height: 100px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    padding-left: 0;
+    li{
+        list-style: none;
+        display: inline-block;
+        line-height: 110px;
+        margin: 0 5px;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            color: $colorNegro;
+            &:hover{
+                color: $colorNaranja;
+                text-shadow: 0 0 10px $colorNaranja,
+                             0 0 20px $colorNaranja,
+                             0 0 40px $colorNaranja,
+                             0 0 60px $colorNaranja;
+                transition: all .5s;
+            }
+        }
+    }
+}
+/* RESPONSIVE */
+@media (max-width: 778px) {
+    
+    .logo{
+        width: 160px;
+        margin-left: 20px;
+    }
+    
+    .bar-boton{
+        font-size: 20px;
+        margin-right: 30px;
+        cursor: pointer; /* Manito sobre elemento */
+        color: $colorNaranja;
+        display: block;
+    }
+    
+    .nav-menu{
+        position: absolute;
+        width: 100%;
+        height: 0vh;
+        top: 110px;
+        background: rgb(246, 128, 60);
+        opacity: 0.90;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+        li{
+            display: none;
+            line-height: 30px;
+            margin: 30px 0;
+            transition: all .5s;
+            a{
+                color: $colorNegro;
+                font-size: 16px;
+                text-transform: uppercase;
+                &:hover{
+                    color: white;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+    #check{
+    display: none;
+    }
+
+    #check:checked ~ .nav-menu{
+    height: 100vh;
+    }
+
+    #check:checked ~ .nav-menu li{
+    display: block;
+    }
+
+}
+/* FIN HEADER */

@@ -1,0 +1,67 @@
+/* INICIO MAIN DETAILING */
+.grid{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas: 
+    "p1 car"
+    "p2 p2";
+}
+.car{
+    grid-area: car;
+    margin-top: 30px;
+    margin-right: 10px;
+    div{
+        img{
+            width: 900px;
+            height: 450px;
+        }
+    }
+}
+.p1{
+    grid-area: p1;
+    margin: 20px;
+    h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+.p1 span{
+    font-weight: bold;
+}
+
+.p2{
+    grid-area: p2;
+    margin: 20px;
+    h2{
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+/* RESPONSIVE */
+@media (max-width: 778px){
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "p1"
+        "car"
+        "p2";
+    }
+    .car{
+        margin: 5px;
+        div{
+            img{
+                
+                width: 900px;
+                height: 380px;
+                
+            }
+        }
+    }
+}    
+/* FIN MAIN DETAILING */

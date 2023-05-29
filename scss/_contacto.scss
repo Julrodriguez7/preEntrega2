@@ -1,0 +1,32 @@
+/* INICIO MAIN CONTACTO */
+.container{
+    div{
+        text-align: center;
+        padding-bottom: 5px;
+        h1{
+            font-weight: bold;
+        }
+    }
+    form{
+        padding: 20px;
+        background-color: $colorNaranja;
+        border: 2px solid $colorNegro;
+        border-radius: 20px;
+    }
+}
+.btn{
+    background-color: white;
+    color: $colorNegro;
+    border: 2px solid $colorNegro;
+    transition: all .5s linear;
+    &:hover{
+        background-color: $colorNegro;
+        border: 2px solid white;
+        color: white;
+        transition: all .5s linear;
+    }
+}
+.nombre, .apellido, .email, .telefono, .texto{
+    border: 2px solid $colorNegro;
+}
+/* FIN MAIN CONTACTO */

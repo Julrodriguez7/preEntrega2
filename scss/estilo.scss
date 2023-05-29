@@ -1,0 +1,21 @@
+$colorNaranja: rgb(246,128,60);
+$colorNegro: rgb(20,20,20);
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    border-top: 5px solid rgb(246, 128, 60);
+}
+
+@import "header";
+@import "index";
+@import "detailing";
+@import "nosotros";
+@import "galeria";
+@import "contacto";
+@import "footer";

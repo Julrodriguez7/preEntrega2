@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web de taller dedicado a la limpieza al detalle de automoviles, incluyendo lavados, limpieza de motor, pulido de carrosería y ópticas, limpieza de interiores y aplicación de coatings protectores de pintura.">
+    <meta name="keywords" content="CAR DETAILING, TALLER, LAVADOS, PULIDOS, LIMPIEZA DE AUTOMOVILES, COATINGS, SELLADO DE PINTURA">
     <script src="https://kit.fontawesome.com/99861da79f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/estilo.css">
     <link rel="icon" href="./img/icono.ico">
-    <title>Detailing Co.</title>
+    <title>Detailing Co. | Car Detailing | Inicio</title>
 </head>
 <body>
     <header>
         <nav>
             <div>
                 <a href="index.html">
-                    <img src="./img/logo.png" alt="logo" class="logo">
+                    <img src="./img/logo.png" alt="logo de empresa" class="logo">
                 </a>
             </div>
             <input type="checkbox" id="check">
@@ -49,9 +52,11 @@
         <section class="section1">
             <video src="./vid/clip.mp4" class="video" autoplay muted loop></video>
         </section>
-
+        <div class="slogan animate__animated animate__fadeInLeft"><p>En <span>Detailing Company</span> detallamos con pasión.</p></div>
+        <div class="titulo-inicio animate__animated animate__fadeInRight"><h1>Servicios</h1></div>
         <section class="section2">
-            <section class="section-img" data-aos="flip-left">
+
+            <section class="section-img" data-aos="zoom-in-right">
                 <div>
                     <img src="./img/lavado.png" alt="lavado" class="img-lav">
                 </div>
@@ -63,15 +68,15 @@
                 </div>
             </section>
             
-            <section class="section-img" data-aos="flip-right">
+            <section class="section-img" data-aos="zoom-in-left">
                 <div>
-                    <img src="./img/opticas.png" alt="opticas" class="img-opt">
+                    <img src="./img/opticas.png" alt="pulido de ópticas" class="img-opt">
                 </div>
                 <div>
-                    <img src="./img/motor.png" alt="motor" class="img-mot">
+                    <img src="./img/motor.png" alt="limpieza de motor" class="img-mot">
                 </div>
                 <div>
-                    <img src="./img/interior.png" alt="interior" class="img-int">
+                    <img src="./img/interior.png" alt="limpieza de interior" class="img-int">
                 </div>
             </section>
         </section>
@@ -99,7 +104,7 @@
     <script>
         AOS.init({
 				easing: 'ease-out-back',
-				duration: 2000
+				duration: 1500
 			});
     </script>
 </body>
