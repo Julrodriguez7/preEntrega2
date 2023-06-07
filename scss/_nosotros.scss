@@ -1,69 +1,67 @@
 /* INICIO MAIN NOSOTROS */
 .main-nosotros{
     display: flex;
-    div{
+    .texto-nosotros{
+        h1{
+            font-weight: bold;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 10px;
+        }
+        p{
+            padding: 10px;
+        }
+        h2{
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        img{
+            padding: 15px;
+        }
+    }
+    .ubicacion-nosotros{
         h3{
             text-align: center;
             padding: 10px;
         }
+        .mapa{
+            width: 450px;
+            height: 350px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
     }
-}
-.texto-nosotros{
-    h1{
-        font-weight: bold;
-        font-size: 2.5rem;
-        text-align: center;
-        margin-top: 10px;
-    }
-    p{
-        padding: 10px;
-    }
-    h2{
-        text-align: center;
-        font-weight: bold;
-        margin-top: 10px;
-    }
-    img{
-        padding: 15px;
-    }
-}
-.mapa{
-    width: 450px;
-    height: 350px;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 /* RESPONSIVE */
 @media (max-width: 778px){
     .main-nosotros{
         display: block;
         text-align: center;
+        .ubicacion-nosotros{
+            .mapa{
+                width: 400px;
+                height: 300px;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
     }
-
-    .mapa{
-        width: 400px;
-        height: 300px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-
 }
 
 @media (max-width: 486px){
     .main-nosotros{
         display: block;
         text-align: center;
+        .ubicacion-nosotros{
+            .mapa{
+                width: 280px;
+                height: 200px;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
     }
-
-    .mapa{
-        width: 280px;
-        height: 200px;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-
-
 }
 /* FIN MAIN NOSOTROS */
