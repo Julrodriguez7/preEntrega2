@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Objetivos principales del taller. Marcas de productos con los que se trabaja en el taller.">
-    <meta name="keywords" content="CAR DETAILING, TALLER, OBJETIVOS, UBICACIÓN, MARCAS, PRODUCTOS">
     <script src="https://kit.fontawesome.com/99861da79f.js" crossorigin="anonymous"></script><!-- ESTILO DE ICONOS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"><!-- FUENTES AÑADIDAS -->
     <link rel="stylesheet" href="../css/estilo.css"><!-- ESTILO PROPIO -->
     <link rel="icon" href="../img/icono.ico">
-    <title>Detailing Co. | Car Detailing | Nosotros</title>
+    <title>Detailing Co. | Car Detailing | Tienda</title>
 </head>
 <body>
     <!-- INICIO HEADER -->
@@ -35,10 +32,10 @@
                     <a href="detailing.html">¿Car Detailing?</a>
                 </li>
                 <li>
-                    <a href="tienda.html">Tienda</a>
+                    <a class="active" href="tienda.html">Tienda</a>
                 </li>
                 <li>
-                    <a class="active" href="nosotros.html">Nosotros</a>
+                    <a href="nosotros.html">Nosotros</a>
                 </li>
                 <li>
                     <a href="galeria.html">Galería</a>
@@ -50,29 +47,28 @@
         </nav>
     </header>
     <!-- INICIO MAIN -->
-    <main class="main-nosotros">
-            <section class="texto-nosotros">
-                <h1>Nosotros</h1>
-                <p>
-                    Somos una empresa joven, apasionada por los autos y que mejor  forma de brindarle nuestro cariño a los fierros que dejándolos como nuevos.
-                </p>
-                <p>
-                    Nuestro principal objetivo es satisfacer las necesidades de los clientes que confían día a día en  nosotros, utilizando productos de excelente calidad tanto importados como de industria nacional.
-                </p>
-                <h2>Marcas utilizadas</h2>
-                <img src="../img/logoKoch.png" alt="Logo marca Koch">
-                <img src="../img/logoGlabs.jpg" alt="Logo marca Glabs">
-                <img src="../img/logoMenzerna.jpg" alt="Logo marca Menzerna">
-                <img src="../img/logoSoft99.png" alt="Logo marca Soft99">
-                <img src="../img/logoMeguiars.jpg" alt="Logo marca Meguairs">
-                <img src="../img/logoGlanzen.jpg" alt="Logo marca Glanzen">
-            </section>
-            <section class="ubicacion-nosotros">
-                <h3>Ubicación</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3828786595186!2d-63.8984522251683!3d-31.650743107618396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cb0905a2ec79%3A0x615a67edf9a29011!2sAv.%20Argentina%20450%2C%20R%C3%ADo%20Segundo%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1684268777772!5m2!1ses!2sar" class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación geográfica del taller. Av. Argentina 450, Rio Segundo, Córdoba, Argentina. "></iframe>
-            </section>
+    <main>
+        <section class="header-tienda">
+            <h1>Tienda</h1>
+            <img src="../img/icono.png" alt="">
+            <div class="btn-carrito" id="btnCarrito">
+                <i class="fa-solid fa-cart-shopping" title="Carrito"></i>
+            </div>
+        </section>
+
+        <section class="container-items" id="containerItems">
+            <!-- <div class="item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_943957-MLA53134745936_012023-F.webp" alt="">
+                <h3>Hidrolavadora Karcher</h3>
+                <p>$2000</p>
+                <div class="footer-item">
+                    <i class="fa-solid fa-plus" id="btnDetalle"></i>
+                    <i class="fa-solid fa-cart-plus" id="btnAgregarCarrito"></i>
+                </div>
+            </div> -->
+        </section>
     </main>
-    <!-- INICIO DE FOOTER -->
+     <!-- INICIO DE FOOTER -->
     <footer>
         <div class="contenedor-footer">
             <div>
@@ -91,5 +87,9 @@
             <p><span><i class="fa-regular fa-copyright"></i></span> 2023 by Detailing Co.</p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../js/productos.js"></script>  
+    <script src="../js/tienda.js"></script>          
 </body>
 </html>

@@ -33,14 +33,14 @@ header {
 .nav-menu {
   position: relative;
   height: 100px;
-  margin-right: 50px;
+  margin-right: 10px;
   margin-bottom: 0;
   padding-left: 0; }
   .nav-menu li {
     list-style: none;
     display: inline-block;
     line-height: 110px;
-    margin: 0 5px; }
+    margin: 0 3.8px; }
     .nav-menu li a {
       text-decoration: none;
       font-weight: bold;
@@ -221,6 +221,72 @@ header {
         height: 380px; } }
 
 /* FIN MAIN DETAILING */
+/* TIENDA */
+.header-tienda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px; }
+  .header-tienda h1 {
+    font-weight: bold;
+    font-size: 2.5rem; }
+  .header-tienda img {
+    width: 80px; }
+  .header-tienda .btn-carrito {
+    font-size: 30px;
+    color: #141414;
+    cursor: pointer; }
+    .header-tienda .btn-carrito:hover {
+      text-shadow: 0 0 10px #f6803c, 0 0 20px #f6803c, 0 0 40px #f6803c, 0 0 60px #f6803c;
+      transition: all .5s; }
+
+.container-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .container-items .item {
+    width: 250px;
+    height: 480px;
+    margin: 8px;
+    border: solid 3px;
+    border-color: #141414;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center; }
+    .container-items .item:hover {
+      box-shadow: 0 10px 20px 5px rgba(20, 20, 20, 0.3);
+      transition: all .5s; }
+    .container-items .item img {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px 10px 0 0;
+      object-fit: cover;
+      transition: all .5s; }
+      .container-items .item img:hover {
+        transform: scale(1.05); }
+    .container-items .item h3 {
+      padding: 10px;
+      font-weight: lighter;
+      border-top: solid 3px; }
+    .container-items .item p {
+      color: #f6803c;
+      padding: 10px;
+      font-size: x-large;
+      font-weight: bold; }
+    .container-items .item .footer-item {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px; }
+      .container-items .item .footer-item i {
+        font-size: 30px;
+        color: #141414;
+        cursor: pointer; }
+        .container-items .item .footer-item i:hover {
+          text-shadow: 0 0 10px #f6803c, 0 0 20px #f6803c, 0 0 40px #f6803c, 0 0 60px #f6803c;
+          transition: all .5s; }
+
 /* INICIO MAIN NOSOTROS */
 .main-nosotros {
   display: flex; }
