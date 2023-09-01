@@ -30,7 +30,7 @@ const productos = [
     },
     {
         id: 5,
-        nombre: "Kit Pulido Menzerna 250ml",
+        nombre: "Kit Pulido 3 Pasos Menzerna 250ml",
         precio: 36500,
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_603024-MLA54263567578_032023-F.webp",
         descripcion: `Kit Menzerna 3 pasos:
@@ -40,7 +40,7 @@ const productos = [
     },
     {
         id: 6,
-        nombre: "Kit Pulido Menzerna 1L",
+        nombre: "Kit Pulido 3 Pasos Menzerna 1L",
         precio: 100000,
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_896103-MLA53788027719_022023-F.webp",
         descripcion: `Kit Menzerna 3 pasos:
@@ -48,4 +48,32 @@ const productos = [
         MENZERNA MC 2400 - 250 ML
         MENZERNA SFP 3800 - 250 ML`,
     },
+    {
+        id: 7,
+        nombre: "Sellador Ceramico Soft 99 H7 100ml",
+        precio: 55000,
+        img:"https://http2.mlstatic.com/D_NQ_NP_2X_855469-MLA53605969317_022023-F.webp",
+        descripcion: `H-7 crea una superficie protectora sólida a base de óxido de silicio que posee una alta resistencia a las influencias abrasivas y químicas, añade un excelente brillo, por lo tanto es absolutamente seguro para una pintura y barniz que cubre y mantiene las propiedades de protección de hasta un año`,
+    },
+    {
+        id: 8,
+        nombre: "Cera Soft99 Fusso Coat Colores Claros 200g",
+        precio: 18000,
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_821766-MLA49119190227_022022-F.webp",
+        descripcion: `Sus polímeros, contienen una capacidad anti-incrustante suficiente, protegiendo eficazmente la superficie del coche contra la lluvia, la suciedad y otros residuos no deseados. Su capa dura y gruesa repele fuertemente el agua, ya que el agua fluye suavemente hacia abajo y hacia fuera de la superficie del coche.`,
+    },
+    {
+        id: 9,
+        nombre: "Cera Soft99 Fusso Coat Colores Oscuros 200g",
+        precio: 18000,
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_766780-MLA49118940488_022022-F.webp",
+        descripcion: `Sus polímeros, contienen una capacidad anti-incrustante suficiente, protegiendo eficazmente la superficie del coche contra la lluvia, la suciedad y otros residuos no deseados. Su capa dura y gruesa repele fuertemente el agua, ya que el agua fluye suavemente hacia abajo y hacia fuera de la superficie del coche.`,
+    },
+    {
+        id: 10,
+        nombre: "Acondicionador Covers Matt Glabs 500ml",
+        precio: 4500,
+        img: "https://http2.mlstatic.com/D_NQ_NP_935034-MLA50434203214_062022-O.webp",
+        descripcion: `Acondicionador formulado especificamente para superficies externas, su fórmula otorga brillo y protección dejando un acabado seco al tacto sobre partes plásticas y cubiertas.`,
+    }
 ]
