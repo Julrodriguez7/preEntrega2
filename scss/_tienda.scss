@@ -251,3 +251,123 @@
     display: none;
 }
 
+.seccion-compra{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba($colorNegro, 0.50);
+    z-index: 3;
+    .conteiner-compra{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+        background-color: $colorNaranja;
+        border: solid 3px;
+        border-color: $colorNegro;
+        border-radius: 10px;
+        .header-compra{
+            display: flex;
+            align-items: center;
+            img{
+                margin: 10px;
+                width: 50px;
+                height: 40px;
+                border: solid 2px;
+                border-color: $colorNegro;
+                border-radius: 10px;
+            }
+            h2{
+                padding: 10px;
+            }
+            i{
+                padding: 10px;
+                font-size: x-large;
+                color: $colorNegro;
+                cursor: pointer;
+            }
+        }
+        .productos-compra{
+            background-color: white;
+            border: solid 2px;
+            border-color: $colorNegro;
+            overflow: auto;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+            .producto-compra{
+                padding: 5px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                p{
+                    margin: 20px;
+                }
+                img{
+                    margin: 10px;
+                    width: 80px;
+                    height: 80px;
+                }
+                div{
+                    width: 300px;
+                    h3{
+                        font-size: medium;
+                    }
+                    p{
+                        color: $colorNaranja;
+                        font-size: medium;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .total-compra{
+            padding: 5px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .datos-compra{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top: solid 2px;
+            border-color: $colorNegro;
+            h2{
+                padding: 5px;
+            }
+            #form-compra{
+                background-color: white;
+                border: solid 2px;
+                border-color: $colorNegro;
+                padding: 10px;
+                div{
+                    margin: 8px;
+                }
+            }
+            #confirmarCompra{
+                margin: 10px;
+                width: 170px;
+                height: 28px;
+                cursor: pointer;
+                color: $colorNegro;
+                background-color: white;
+                border: solid 2px rgb(20, 20, 20);
+                transition: all .5s;
+                &:hover{
+                    color: white;
+                    background-color: $colorNegro;
+                }
+            }
+        }
+    }
+}

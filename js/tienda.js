@@ -1,5 +1,3 @@
-const containerItems = document.getElementById("containerItems");
-const seccionDetalle = document.querySelector(".seccion-detalle");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 

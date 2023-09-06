@@ -33,27 +33,21 @@ const productos = [
         nombre: "Kit Pulido 3 Pasos Menzerna 250ml",
         precio: 36500,
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_603024-MLA54263567578_032023-F.webp",
-        descripcion: `Kit Menzerna 3 pasos:
-        MENZERNA HC 400 - 250 ML
-        MENZERNA MC 2400 - 250 ML
-        MENZERNA SFP 3800 - 250 ML`,
+        descripcion: `Kit Menzerna 3 pasos 250ml: MENZERNA HC 400, MENZERNA MC 2400, MENZERNA SFP 3800.`,
     },
     {
         id: 6,
         nombre: "Kit Pulido 3 Pasos Menzerna 1L",
         precio: 100000,
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_896103-MLA53788027719_022023-F.webp",
-        descripcion: `Kit Menzerna 3 pasos:
-        MENZERNA HC 400 - 250 ML
-        MENZERNA MC 2400 - 250 ML
-        MENZERNA SFP 3800 - 250 ML`,
+        descripcion: `Kit Menzerna 3 pasos 1L: MENZERNA HC 400, MENZERNA MC 2400, MENZERNA SFP 3800.`,
     },
     {
         id: 7,
         nombre: "Sellador Ceramico Soft 99 H7 100ml",
         precio: 55000,
         img:"https://http2.mlstatic.com/D_NQ_NP_2X_855469-MLA53605969317_022023-F.webp",
-        descripcion: `H-7 crea una superficie protectora sólida a base de óxido de silicio que posee una alta resistencia a las influencias abrasivas y químicas, añade un excelente brillo, por lo tanto es absolutamente seguro para una pintura y barniz que cubre y mantiene las propiedades de protección de hasta un año`,
+        descripcion: `H-7 crea una superficie protectora sólida a base de óxido de silicio que posee una alta resistencia a las influencias abrasivas y químicas, añade un excelente brillo, por lo tanto es absolutamente seguro para una pintura y barniz que cubre y mantiene las propiedades de protección de hasta un año.`,
     },
     {
         id: 8,
@@ -75,5 +69,41 @@ const productos = [
         precio: 4500,
         img: "https://http2.mlstatic.com/D_NQ_NP_935034-MLA50434203214_062022-O.webp",
         descripcion: `Acondicionador formulado especificamente para superficies externas, su fórmula otorga brillo y protección dejando un acabado seco al tacto sobre partes plásticas y cubiertas.`,
+    },
+    {
+        id: 11,
+        nombre: "Pack 4 Paños Microfibra Laffitte",
+        precio: 2500,
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_797432-MLA44041279363_112020-F.webp",
+        descripcion: `Este pack de 4 paños de microfibra Laffitte es ideal para mantener la limpieza en tu auto. Gracias a su material absorbente multiuso, podrás limpiar cualquier superficie de manera eficiente y sin dejar marcas. Con un tamaño de 30x30 cm, estos paños son perfectos para cubrir áreas amplias y llegar a los rincones más difíciles.`,
+    },
+    {
+        id: 12,
+        nombre: "Microfibra De Secado Premium Laffitte",
+        precio: 4000,
+        img: "https://http2.mlstatic.com/D_NQ_NP_826863-MLA51108218119_082022-O.webp",
+        descripcion: `Medidas: 40cm x 60cm. Microfibra de alta densidad, gran capacidad de absorción. No raya, no deja marcas, ni pelusas. Limpia, seca y da brillo en un solo paso.`,
+    },
+    {
+        id: 13,
+        nombre: "Sellador Ceramico Soft 99 H7 50ml",
+        precio: 35000,
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_718611-MLA54286350748_032023-F.webp",
+        descripcion: `H-7 crea una superficie protectora sólida a base de óxido de silicio que posee una alta resistencia a las influencias abrasivas y químicas, añade un excelente brillo, por lo tanto es absolutamente seguro para una pintura y barniz que cubre y mantiene las propiedades de protección de hasta un año.`,
+    },
+    {
+        id: 14,
+        nombre: "Kit 5 Pinceles Detallado Interior Vonixx",
+        precio: 19500,
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_979537-MLA47716660113_092021-F.webp",
+        descripcion: `Kit de pinceles desarrollados para limpieza de coches, motos y repuestos en general. Compuesto por cerdas sintéticas con filamento cónico suave, flexible y duradero, es ideal para limpiar las partes internas más delicadas del vehículo o motocicleta.`,
+    },
+    {
+        id: 15,
+        nombre: "Royal Pads Ultimate 5 Finish",
+        precio: 7000,
+        img: "https://http2.mlstatic.com/D_NQ_NP_980285-MLA47366237356_092021-O.webp",
+        descripcion: `La línea ULTIMATE son pads de pulido de celda abierta dedicadas para máquinas rotativas y Dual Action (Roto Orbital) y cualquier tipo de compuestos. La tecnología de celda abierta proporciona una ventilación mucho mejor, lo que permite una retención prolongada de las propiedades de pulido durante el trabajo. El perfil lateral de espuma cónica y el orificio central garantizan el más alto nivel de eficiencia y seguridad en el trabajo.`,
     }
+
 ]
